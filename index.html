@@ -71,6 +71,9 @@
                         <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/carlosnogueradev"
                             target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i><span
                               class="menu-title sr-only">LinkedIn</span></a></li>
+                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/CarlosNC-DEV"
+                            title="Instagram"><i class="fab fa-github"></i><span
+                              class="menu-title sr-only">GitHub</span></a></li>
                         <li class="nav-item"><a class="nav-link" target="_blank"
                             href="https://www.facebook.com/robertocarlos.nogueracordoba" title="Facebook"><i
                               class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
@@ -289,12 +292,13 @@
               </div>
               <div class="form-group my-2">
                 <label for="message" class="form-label fw-bolder">Mensaje</label>
-                <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+                <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"
+                  required></textarea>
               </div>
               <button class="btn btn-primary mt-2" type="submit">Enviar</button>
             </form>
           </div>
-        </div>       
+        </div>
         <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
           <div class="mt-3 px-1">
             <div class="h5">¡Hola!</div>
@@ -334,6 +338,8 @@
               <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/carlosnogueradev"
                   target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i><span
                     class="menu-title sr-only">LinkedIn</span></a></li>
+              <li class="nav-item"><a class="nav-link" target="_blank" href="https://github.com/CarlosNC-DEV"
+                  title="Instagram"><i class="fab fa-github"></i><span class="menu-title sr-only">GitHub</span></a></li>
               <li class="nav-item"><a class="nav-link" target="_blank"
                   href="https://www.facebook.com/robertocarlos.nogueracordoba" title="Facebook"><i
                     class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
@@ -362,14 +368,14 @@
   <script src="./scripts/main.js?ver=1.2.0"></script>
   <script>
     const form = document.getElementById('contact-form');
-  
+
     form.addEventListener('submit', (event) => {
       // Evita que se recargue la página
       event.preventDefault();
-  
+
       // Envía el formulario
       form.submit();
-  
+
       // Limpia los campos
       form.reset();
     });
